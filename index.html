@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <style>
+        /* Estilos para o corpo da página */
+        body {
+            background: url(backiee-253827.jpg) center;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos para o cabeçalho (header) */
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        /* Estilo para o tamanho de fonte do link "Início" */
+        #inicio{
+            font-size: 24px;
+        }
+
+        /* Estilos para a barra de navegação (nav) */
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Estilos para os itens de menu (links) */
+        .menu-container {
+            color: white;
+            display: inline-block;
+            margin: 10px;
+            transform: scale(1);
+            transition: transform 0.3s, color 0.3s;
+        }
+
+        /* Efeito de escala no hover (quando passa o mouse) */
+        .menu-container:hover {
+            transform: scale(1.1);
+            color: #ff5733;
+        }
+
+        /* Estilos para links */
+        a {
+            text-decoration: none;
+            color: #f5f1f1;
+            font-weight: bold;
+        }
+
+        /* Efeito de cor no hover dos links */
+        a:hover {
+            color: #ff5733;
+        }
+
+        /* Estilos para a seção principal de conteúdo */
+        .content {
+            color: red;
+            text-align: center;
+            background-image: url(Screenshot_20191203_150328.jpg);
+            background-position: right center;
+            max-width: 1000px;
+            height: 580px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Minha Página</h1>
+    </header>
+
+    <nav>
+        <!-- Menu de navegação -->
+        <div class="menu-container">
+            <a href="index.html" >Início</a>
+        </div>
+        <div class="menu-container">
+            <a href="meuperfil.html">Sobre Mim</a>
+        </div>
+        <div class="menu-container">
+            <a href="formacao.html">Formação Educacional</a>
+        </div>
+        <div class="menu-container">
+            <a href="curriculo.html">Currículo</a>
+        </div>
+        <div class="menu-container">
+            <a href="portfolio.html">Portfólio</a>
+        </div>
+    </nav>
+
+    <div class="content">
+        <!-- Seção de início -->
+        <section id="inicio">
+            <h2>Início</h2>
+            <p >Bem-vindo à minha página. Aqui você encontrará informações sobre mim, minha formação, currículo e portfólio.</p>
+        </section>
+
+        <!-- Outras seções de conteúdo podem ser adicionadas aqui -->
+    </div>
+</body>
+</html>
